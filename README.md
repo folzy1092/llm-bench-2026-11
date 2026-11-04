@@ -6,8 +6,8 @@
 
 | | |
 |---|---|
-| 🇬🇧 English | https://folzy1092.github.io/llm-bench-2026-11/ |
-| 🇷🇺 Русский | https://folzy1092.github.io/llm-bench-2026-11/ru/ |
+| 🇬🇧 English | https://folzy.is-a.dev/llm-bench-2026-11/ |
+| 🇷🇺 Русский | https://folzy.is-a.dev/llm-bench-2026-11/ru/ |
 
 Data as of **November 4, 2026** · Данные на **4 ноября 2026**.
 
@@ -43,7 +43,7 @@ tools/build.py      generator: all data and all texts live here
 
 1. Put the files in the repository root (keep the folder structure).
 2. Repository **Settings → Pages → Build and deployment → Deploy from a branch**, branch `main`, folder `/ (root)`.
-3. After a minute the site is live at `https://folzy1092.github.io/llm-bench-2026-11/`.
+3. After a minute the site is live at `https://folzy.is-a.dev/llm-bench-2026-11/`.
 
 If you rename the repository, change `BASE` and `GITHUB` at the top of `tools/build.py` and rebuild.
 
@@ -63,7 +63,7 @@ The pages are plain static HTML: tables, numbers and the FAQ are in the markup, 
 
 To get indexed faster:
 
-1. **Google:** add the site in [Search Console](https://search.google.com/search-console) as a *URL prefix* property (`https://folzy1092.github.io/llm-bench-2026-11/`), then submit `sitemap.xml` and request indexing of both pages.
+1. **Google:** add the site in [Search Console](https://search.google.com/search-console) as a *URL prefix* property (`https://folzy.is-a.dev/llm-bench-2026-11/`), then submit `sitemap.xml` and request indexing of both pages.
 2. **Bing and DuckDuckGo** (DuckDuckGo uses Bing's index): add the site in [Bing Webmaster Tools](https://www.bing.com/webmasters) and submit the sitemap.
 3. If a service asks for a verification meta tag, paste the code into `VERIFY` in `tools/build.py` and rebuild.
 
@@ -105,7 +105,7 @@ tools/build.py      генератор: все данные и тексты ле
 
 1. Положи файлы в корень репозитория, сохранив структуру папок.
 2. **Settings → Pages → Build and deployment → Deploy from a branch**, ветка `main`, папка `/ (root)`.
-3. Через минуту сайт откроется по адресу `https://folzy1092.github.io/llm-bench-2026-11/`.
+3. Через минуту сайт откроется по адресу `https://folzy.is-a.dev/llm-bench-2026-11/`.
 
 Если переименуешь репозиторий, поменяй `BASE` и `GITHUB` в начале `tools/build.py` и пересобери.
 
@@ -125,7 +125,7 @@ python tools/build.py
 
 Чтобы проиндексировали быстрее:
 
-1. **Google:** добавь сайт в [Search Console](https://search.google.com/search-console) как ресурс с префиксом URL (`https://folzy1092.github.io/llm-bench-2026-11/`), отправь `sitemap.xml` и запроси индексацию обеих страниц.
+1. **Google:** добавь сайт в [Search Console](https://search.google.com/search-console) как ресурс с префиксом URL (`https://folzy.is-a.dev/llm-bench-2026-11/`), отправь `sitemap.xml` и запроси индексацию обеих страниц.
 2. **Bing и DuckDuckGo** (DuckDuckGo использует индекс Bing): добавь сайт в [Bing Webmaster Tools](https://www.bing.com/webmasters) и отправь sitemap.
 3. Если сервис просит мета-тег подтверждения, вставь код в `VERIFY` в `tools/build.py` и пересобери.
 

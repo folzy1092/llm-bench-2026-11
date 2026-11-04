@@ -11,7 +11,7 @@ import json
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-BASE = 'https://folzy1092.github.io/llm-bench-2026-11/'
+BASE = 'https://folzy.is-a.dev/llm-bench-2026-11/'
 GITHUB = 'https://github.com/folzy1092/llm-bench-2026-11'
 DATE = '2026-11-04'
 SITE = 'LLM Bench 2026-11'
